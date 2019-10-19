@@ -19,6 +19,17 @@ public class GameController : MonoBehaviour
 
     public void Reset()
     {
+        SceneManager.LoadScene("Start");
+    }
+
+    public void OnStartButtonClick()
+    {
+ 
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void OnRestartButtonClick()
+    {
         SceneManager.LoadScene("SampleScene");
     }
 }
