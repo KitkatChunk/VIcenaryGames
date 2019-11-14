@@ -6,16 +6,16 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
+    //void Start()
+    //{
         
-    }
+    //}
 
     // Update is called once per frame
-    void Update()
-    {
+    //void Update()
+    //{
         
-    }
+    //}
 
     public void Reset()
     {
@@ -24,12 +24,11 @@ public class GameController : MonoBehaviour
 
     public void OnStartButtonClick()
     {
- 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("LevelOne");
     }
 
     public void OnRestartButtonClick()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("LevelOne");
     }
 }

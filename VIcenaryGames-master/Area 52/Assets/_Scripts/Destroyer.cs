@@ -5,26 +5,25 @@ using UnityEngine;
 public class Destroyer : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
+    //void Start()
+    //{
 
-    }
+    //}
 
     // Update is called once per frame
-    void Update()
-    {
+    //void Update()
+    //{
 
-    }
+    //}
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Wall")
+        if(other.gameObject.tag == "Boundary")
         {
-            //Debug.Log("Something");
             Destroy(this.gameObject);
         }
 
-        if(other.gameObject.tag == "Enemy")
+        if(other.gameObject.tag == "Enemy" || other.gameObject.tag == "Wall")
         {
             Destroy(other.gameObject);
             Destroy(this.gameObject);
