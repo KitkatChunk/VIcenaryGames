@@ -349,9 +349,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: f4480000
     m_LastClickedID: 18676
     m_ExpandedIDs: 0000000014390000
+=======
+    m_SelectedIDs: 3a400000
+    m_LastClickedID: 16442
+    m_ExpandedIDs: 00000000522d000000ca9a3b
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +385,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 0000000014390000
+=======
+    m_ExpandedIDs: 00000000522d0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +512,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: c4e9ffffdce9ffffe8e9ffff10eaffffd6eaffff7aebffff42ecffff68ecffff2eedffffcaedffff92eeffff74efffff9ef7ffff0ef8ffffc6f8ffff0c5200002c5200007e580000
+=======
+      m_ExpandedIDs: 86f1ffffb4f1ffff4ef2ffff12f3ffff38f3ffff64f3fffffcf3ffff28f4ffff58f4fffffef7ffff2cf8ffffc8f8ffff8cf9ffffb2f9ffffd8f9ffff04faffffa0faffffd0faffff74fbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Enemy
@@ -562,9 +576,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -0.5041798, y: 19.222052, z: -2.931963}
     speed: 2
     m_Value: {x: -0.5041798, y: 19.222052, z: -2.931963}
+=======
+    m_Target: {x: 13.832021, y: 6.4897966, z: -55.228386}
+    speed: 2
+    m_Value: {x: 13.832021, y: 6.4897966, z: -55.228386}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -597,9 +617,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 15.245904
     speed: 2
     m_Value: 15.245904
+=======
+    m_Target: 37.31726
+    speed: 2
+    m_Value: 37.31726
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
