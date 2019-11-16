@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public Rigidbody2D enemyRigidBody;
+    public Transform wallAhead;
+    public bool hasWallAhead;
+    public bool isMovingRight = true;
     public float speed;
 
     // Start is called before the first frame update
@@ -16,22 +20,29 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         Move();
-        CheckBounds();
     }
 
     public void Move()
     {
-        Vector2 newPosition = new Vector2(speed, 0.0f);
-        Vector2 currentPosition = transform.position;
-        currentPosition += newPosition;
-        transform.position = currentPosition;
-    }
+        hasWallAhead = Physics2D.Linecast(
+            transform.position,
+            wallAhead.position,
+            1 << LayerMask.NameToLayer("Boundary"));
 
-    void CheckBounds()
-    {
-        if(transform.position.x >= 5.4f || transform.position.x <= -5.4f)
+        if (isMovingRight)
         {
-            speed = -speed;
+            enemyRigidBody.velocity = new Vector2(speed, 0.0f);
+        }
+
+        if (!isMovingRight)
+        {
+            enemyRigidBody.velocity = new Vector2(-speed, 0.0f);
+        }
+
+        if (hasWallAhead)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, 0.5f, 1.0f);
+            isMovingRight = !isMovingRight;
         }
     }
 }
