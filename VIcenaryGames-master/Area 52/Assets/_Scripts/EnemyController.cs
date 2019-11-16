@@ -10,6 +10,12 @@ public class EnemyController : MonoBehaviour
     public bool isMovingRight = true;
     public float speed;
 
+    [Header("Attack Settings")]
+    public GameObject shot;
+    public GameObject shotSpawn;
+    public float fireRate;
+    private float downTime;
+
     // Start is called before the first frame update
     //void Start()
     //{
@@ -19,7 +25,9 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        downTime += Time.deltaTime;
         Move();
+        Attack();
     }
 
     public void Move()
@@ -43,6 +51,15 @@ public class EnemyController : MonoBehaviour
         {
             transform.localScale = new Vector3(-transform.localScale.x, 0.5f, 1.0f);
             isMovingRight = !isMovingRight;
+        }
+    }
+
+    public void Attack()
+    {
+        if (downTime >= fireRate)
+        {
+            Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
+            downTime = 0.0f;
         }
     }
 }

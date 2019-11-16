@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Boundary
   - PowerUp
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

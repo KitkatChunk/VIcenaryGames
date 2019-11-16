@@ -24,10 +24,10 @@ public class Player1Controller : MonoBehaviour
     private float myTime;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    //void Start()
+    //{
         
-    }
+    //}
 
     // Update is called once per frame
     void Update()
@@ -37,7 +37,6 @@ public class Player1Controller : MonoBehaviour
         //calls Move method
         Move();
         Attack();
-
     }
 
     public void Move()
@@ -74,7 +73,7 @@ public class Player1Controller : MonoBehaviour
 
     public void Attack()
     {
-        if (Input.GetButton("Fire1") && myTime > fireRate)
+        if (Input.GetButton("Fire1") && myTime >= fireRate)
         {
             Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
             myTime = 0.0f;
@@ -87,26 +86,26 @@ public class Player1Controller : MonoBehaviour
         {
             gameController.Reset();
         }
-
     }
     // Increase speed when player "picks up" powerup
      void OnTriggerEnter2D(Collider2D other)
      {
+        if(other.gameObject.tag == "EnemyBullet")
+        {
+            gameController.Reset();
+        }
 
-      
         if (other.gameObject.tag == "PowerUp")
         {
-        
-            StartCoroutine(PowerUpWearOff(5f));
+            StartCoroutine(PowerUpWearOff(3f));
         }
-   
      }
     //Limits the time of the powerup
     IEnumerator PowerUpWearOff(float waitTime)
     {
-        speed.max += 0.05f; 
+        speed.max += 0.04f; 
         yield return new WaitForSeconds(waitTime);
-        speed.max -= 0.05f; 
+        speed.max -= 0.04f; 
     }
 
 }

@@ -73,7 +73,7 @@ public class Player2Controller : MonoBehaviour
 
     public void Attack()
     {
-        if (Input.GetButton("Fire1_2") && myTime > fireRate)
+        if (Input.GetButton("Fire1_2") && myTime >= fireRate)
         {
             Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
             myTime = 0.0f;
@@ -95,16 +95,15 @@ public class Player2Controller : MonoBehaviour
 
         if (other.gameObject.tag == "PowerUp")
         {
-
-            StartCoroutine(PowerUpWearOff(5f));
+            StartCoroutine(PowerUpWearOff(3f));
         }
 
     }
     //Limits the time of the powerup
     IEnumerator PowerUpWearOff(float waitTime)
     {
-        speed.max += 0.05f;
+        speed.max += 0.04f;
         yield return new WaitForSeconds(waitTime);
-        speed.max -= 0.05f;
+        speed.max -= 0.04f;
     }
 }
