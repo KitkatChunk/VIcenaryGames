@@ -37,6 +37,7 @@ public class Player1Controller : MonoBehaviour
         //calls Move method
         Move();
         Attack();
+
     }
 
     public void Move()
@@ -86,5 +87,26 @@ public class Player1Controller : MonoBehaviour
         {
             gameController.Reset();
         }
+
     }
+    // Increase speed when player "picks up" powerup
+     void OnTriggerEnter2D(Collider2D other)
+     {
+
+      
+        if (other.gameObject.tag == "PowerUp")
+        {
+        
+            StartCoroutine(PowerUpWearOff(5f));
+        }
+   
+     }
+    //Limits the time of the powerup
+    IEnumerator PowerUpWearOff(float waitTime)
+    {
+        speed.max += 0.05f; 
+        yield return new WaitForSeconds(waitTime);
+        speed.max -= 0.05f; 
+    }
+
 }
