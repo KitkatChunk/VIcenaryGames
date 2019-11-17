@@ -19,16 +19,18 @@ public class GameController : MonoBehaviour
 
     public void Reset()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Training");
     }
 
     public void OnStartButtonClick()
     {
-        SceneManager.LoadScene("LevelOne");
+        SceneManager.LoadScene("Training");
     }
 
     public void OnRestartButtonClick()
     {
         SceneManager.LoadScene("LevelOne");
     }
+
+
 }
