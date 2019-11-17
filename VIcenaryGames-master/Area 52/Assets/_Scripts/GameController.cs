@@ -31,6 +31,4 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("LevelOne");
     }
-
-
 }
