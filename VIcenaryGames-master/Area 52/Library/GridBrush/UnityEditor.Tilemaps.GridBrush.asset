@@ -13,11 +13,7 @@ MonoBehaviour:
   m_Name: Default Brush
   m_EditorClassIdentifier: 
   m_Cells:
-<<<<<<< Updated upstream
-  - m_Tile: {fileID: 11400000, guid: a4824dba286016349a02f96eea44d599, type: 2}
-=======
-  - m_Tile: {fileID: 11400000, guid: b7741c29e0906954691d5d36bf345cc8, type: 2}
->>>>>>> Stashed changes
+  - m_Tile: {fileID: 11400000, guid: dae8e85619578d64388f5cfb51e5d8a7, type: 2}
     m_Matrix:
       e00: 1
       e01: 0
@@ -36,6 +32,44 @@ MonoBehaviour:
       e32: 0
       e33: 1
     m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Size: {x: 1, y: 1, z: 1}
+  - m_Tile: {fileID: 11400000, guid: 7c9a233ff43bbbb4cb38720c0d8b0b03, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Tile: {fileID: 11400000, guid: ba3de1c5798a6554a996e1b910e8f921, type: 2}
+    m_Matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Size: {x: 1, y: 3, z: 1}
   m_Pivot: {x: 0, y: 0, z: 0}
   m_CanChangeZPosition: 0
