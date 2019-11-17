@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Util;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// This script controls the actions the player object will do
@@ -15,6 +17,14 @@ public class Player2Controller : MonoBehaviour
     public Speed speed;
     public float turningSpeed;
 
+    [SerializeField]
+    private static int _health;
+    public Text HealthLabel;
+
+    [SerializeField]
+    private static int _score;
+    public Text ScoreLabel;
+
     [Header("Attack Settings")]
     public GameObject shot;
     public GameObject shotSpawn;
@@ -24,10 +34,11 @@ public class Player2Controller : MonoBehaviour
     private float myTime;
 
     // Start is called before the first frame update
-    //void Start()
-    //{
-
-    //}
+    void Start()
+    {
+        Health = 5;
+        Score = 0;
+    }
 
     // Update is called once per frame
     void Update()
@@ -37,6 +48,39 @@ public class Player2Controller : MonoBehaviour
         //calls Move method
         Move();
         Attack();
+    }
+
+    public int Health
+    {
+        get
+        {
+            return _health;
+        }
+        set
+        {
+            _health = value;
+            if (_health <= 0)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
+            else
+            {
+                HealthLabel.text = "Health: " + _health.ToString();
+            }
+        }
+    }
+    // Score counter and updater 
+    public int Score
+    {
+        get
+        {
+            return _score;
+        }
+        set
+        {
+            _score = value;
+            ScoreLabel.text = "Score: " + _score.ToString();
+        }
     }
 
     public void Move()
@@ -91,13 +135,20 @@ public class Player2Controller : MonoBehaviour
     // Increase speed when player "picks up" powerup
     void OnTriggerEnter2D(Collider2D other)
     {
-
-
+        if (other.gameObject.tag == "EnemyBullet")
+        {
+            gameController.Reset();
+        }
+        // Increase speed when player "picks up" powerup
         if (other.gameObject.tag == "PowerUp")
         {
             StartCoroutine(PowerUpWearOff(3f));
         }
-
+        // Increase Health when player "picks up" powerup
+        if (other.gameObject.tag == "Health")
+        {
+            _health += 40;
+        }
     }
     //Limits the time of the powerup
     IEnumerator PowerUpWearOff(float waitTime)

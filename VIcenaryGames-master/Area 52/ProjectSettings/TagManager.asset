@@ -10,6 +10,7 @@ TagManager:
   - Boundary
   - PowerUp
   - EnemyBullet
+  - Health
   layers:
   - Default
   - TransparentFX
