@@ -7,7 +7,8 @@ public class EnemyController : MonoBehaviour
     public Rigidbody2D enemyRigidBody;
     public Transform wallAhead;
     public bool hasWallAhead;
-    public bool isMovingRight = true;
+    public bool isMovingPositive = true; //true = moving right/up, false = moving left/down
+    public bool isHorizontal; //defining variable for if movement is on x or y axis (horizontal or vertical)
     public float speed;
 
     [Header("Attack Settings")]
@@ -37,20 +38,42 @@ public class EnemyController : MonoBehaviour
             wallAhead.position,
             1 << LayerMask.NameToLayer("Boundary"));
 
-        if (isMovingRight)
+        if (isHorizontal)
         {
-            enemyRigidBody.velocity = new Vector2(speed, 0.0f);
+            if (isMovingPositive)
+            {
+                enemyRigidBody.velocity = new Vector2(speed, 0.0f);
+            }
+
+            if (!isMovingPositive)
+            {
+                enemyRigidBody.velocity = new Vector2(-speed, 0.0f);
+            }
+
+            if (hasWallAhead)
+            {
+                transform.localScale = new Vector3(-transform.localScale.x, 0.5f, 1.0f);
+                isMovingPositive = !isMovingPositive;
+            }
         }
 
-        if (!isMovingRight)
+        if (!isHorizontal)
         {
-            enemyRigidBody.velocity = new Vector2(-speed, 0.0f);
-        }
+            if (isMovingPositive)
+            {
+                enemyRigidBody.velocity = new Vector2(0.0f, speed);
+            }
 
-        if (hasWallAhead)
-        {
-            transform.localScale = new Vector3(-transform.localScale.x, 0.5f, 1.0f);
-            isMovingRight = !isMovingRight;
+            if (!isMovingPositive)
+            {
+                enemyRigidBody.velocity = new Vector2(0.0f, -speed);
+            }
+
+            if (hasWallAhead)
+            {
+                transform.localScale = new Vector3(0.5f, -transform.localScale.y, 1.0f);
+                isMovingPositive = !isMovingPositive;
+            }
         }
     }
 
