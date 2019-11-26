@@ -273,15 +273,15 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1183407792}
-    - target: {fileID: 8382776626699690099, guid: fb352751d5141644898adcba496f75a5,
-        type: 3}
-      propertyPath: m_Name
-      value: Score 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8382776626454020423, guid: fb352751d5141644898adcba496f75a5,
         type: 3}
       propertyPath: m_Name
       value: Health 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8382776626699690099, guid: fb352751d5141644898adcba496f75a5,
+        type: 3}
+      propertyPath: m_Name
+      value: Score 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb352751d5141644898adcba496f75a5, type: 3}
@@ -367,9 +367,10 @@ GameObject:
   - component: {fileID: 868828510}
   - component: {fileID: 868828512}
   - component: {fileID: 868828511}
+  - component: {fileID: 868828513}
   m_Layer: 0
   m_Name: Buildings
-  m_TagString: Untagged
+  m_TagString: Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5149,6 +5150,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &868828513
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868828509}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &913374002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34501,9 +34518,10 @@ GameObject:
   - component: {fileID: 2010655328}
   - component: {fileID: 2010655330}
   - component: {fileID: 2010655329}
+  - component: {fileID: 2010655331}
   m_Layer: 0
   m_Name: RoadBlocks
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35166,3 +35184,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &2010655331
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010655327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
