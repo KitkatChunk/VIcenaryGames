@@ -60,6 +60,7 @@ public class Player2Controller : MonoBehaviour
         //calls Move method
         Move();
         Attack();
+        Score = Destroyer.p2;
     }
 
     public int Health
