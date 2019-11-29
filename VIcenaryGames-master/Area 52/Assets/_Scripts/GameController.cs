@@ -175,7 +175,7 @@ public class GameController : MonoBehaviour
 
     public void OnStartButtonClick()
     {
-        SceneManager.LoadScene("Training");
+        SceneManager.LoadScene("CharacterSelect");
     }
 
     public void OnRestartButtonClick()

@@ -39,11 +39,28 @@ public class Player2Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (SceneManager.GetActiveScene().name == "LevelOne")
+        if (PlayerPrefs.GetInt("SelectedCharacter") == 0)
+        {
+            Health = 50;
+            speed.min = -0.07f;
+            speed.max = 0.07f;
+        }
+        if (PlayerPrefs.GetInt("SelectedCharacter") == 1)
         {
             Health = 100;
-            Score = 0;
+            speed.min = -0.05f;
+            speed.max = 0.05f;
+        }
 
+        if (PlayerPrefs.GetInt("SelectedCharacter") == 2)
+        {
+            Health = 150;
+            speed.min = -0.03f;
+            speed.max = 0.03f;
+        }
+        if (SceneManager.GetActiveScene().name == "LevelOne")
+        {
+            Score = 0;
         }
         else
         {
