@@ -17,6 +17,9 @@ public class EnemyController : MonoBehaviour
     public float fireRate;
     private float downTime;
 
+
+
+
     // Start is called before the first frame update
     //void Start()
     //{
@@ -85,4 +88,5 @@ public class EnemyController : MonoBehaviour
             downTime = 0.0f;
         }
     }
+
 }

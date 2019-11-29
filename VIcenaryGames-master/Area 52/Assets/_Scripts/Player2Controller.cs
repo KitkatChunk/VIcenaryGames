@@ -18,11 +18,11 @@ public class Player2Controller : MonoBehaviour
     public float turningSpeed;
 
     [SerializeField]
-    private static int _health;
+    public int _health2;
     public Text HealthLabel;
 
     [SerializeField]
-    private static int _score;
+    public int _score2;
     public Text ScoreLabel;
 
     [Header("Attack Settings")]
@@ -30,14 +30,26 @@ public class Player2Controller : MonoBehaviour
     public GameObject shotSpawn;
     public float fireRate;
 
+    [Header("Game Settings")]
+    public ScoreBoard2 scoreBoard;
+
     //fireRate counter
     private float myTime;
 
     // Start is called before the first frame update
     void Start()
     {
-        Health = 100;
-        Score = 0;
+        if (SceneManager.GetActiveScene().name == "LevelOne")
+        {
+            Health = 100;
+            Score = 0;
+
+        }
+        else
+        {
+            Health = scoreBoard.health2;
+            Score = scoreBoard.score2;
+        }
     }
 
     // Update is called once per frame
@@ -54,19 +66,23 @@ public class Player2Controller : MonoBehaviour
     {
         get
         {
-            return _health;
+            return _health2;
         }
         set
         {
-            _health = value;
-            if (_health <= 0)
+            _health2 = value;
+            scoreBoard.health2 = _health2;
+
+            if (_health2 < 1)
             {
-                SceneManager.LoadScene("GameOver");
+
+                SceneManager.LoadScene("End");
             }
             else
             {
-                HealthLabel.text = "Health: " + _health.ToString();
+                HealthLabel.text = "Health: " + _health2;
             }
+
         }
     }
     // Score counter and updater 
@@ -74,12 +90,18 @@ public class Player2Controller : MonoBehaviour
     {
         get
         {
-            return _score;
+            return _score2;
         }
         set
         {
-            _score = value;
-            ScoreLabel.text = "Score: " + _score.ToString();
+            _score2 = value;
+            scoreBoard.score2 = _score2;
+
+            if (scoreBoard.highScore < _score2)
+            {
+                scoreBoard.highScore = _score2;
+            }
+            ScoreLabel.text = "Score: " + _score2;
         }
     }
 
@@ -128,7 +150,13 @@ public class Player2Controller : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            gameController.Reset();
+            Health -= 10;
+            Score += 10;
+            if (Health <= 0)
+            {
+                gameController.Reset();
+
+            }
         }
     }
 
@@ -137,7 +165,12 @@ public class Player2Controller : MonoBehaviour
     {
         if (other.gameObject.tag == "EnemyBullet")
         {
-            gameController.Reset();
+            Health -= 10;
+            if (Health <= 0)
+            {
+                gameController.Reset();
+
+            }
         }
         // Increase speed when player "picks up" powerup
         if (other.gameObject.tag == "PowerUp")
@@ -147,7 +180,7 @@ public class Player2Controller : MonoBehaviour
         // Increase Health when player "picks up" powerup
         if (other.gameObject.tag == "Health")
         {
-            _health += 40;
+            Health += 40;
         }
     }
     //Limits the time of the powerup

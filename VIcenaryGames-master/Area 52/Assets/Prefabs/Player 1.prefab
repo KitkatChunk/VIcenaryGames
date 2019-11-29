@@ -82,9 +82,12 @@ MonoBehaviour:
     min: -0.05
     max: 0.05
   turningSpeed: 5
+  HealthLabel: {fileID: 0}
+  ScoreLabel: {fileID: 0}
   shot: {fileID: 5888375814867272945, guid: c1bad96894f40664d97fabf23e9ca114, type: 3}
   shotSpawn: {fileID: 1698075334}
   fireRate: 1
+  scoreBoard: {fileID: 11400000, guid: 73f2bb82688f77944a9cd5eb39cbbb99, type: 2}
 --- !u!61 &3668421376819633245
 BoxCollider2D:
   m_ObjectHideFlags: 0

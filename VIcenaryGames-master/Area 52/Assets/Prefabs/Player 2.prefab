@@ -157,9 +157,12 @@ MonoBehaviour:
     min: -0.05
     max: 0.05
   turningSpeed: 5
+  HealthLabel: {fileID: 0}
+  ScoreLabel: {fileID: 0}
   shot: {fileID: 5888375814867272945, guid: c1bad96894f40664d97fabf23e9ca114, type: 3}
   shotSpawn: {fileID: 954984669747846164}
   fireRate: 1
+  scoreBoard: {fileID: 11400000, guid: 68d5897ac286a034e96bb62299402afb, type: 2}
 --- !u!50 &633138660
 Rigidbody2D:
   serializedVersion: 4

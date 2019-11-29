@@ -43,3 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1d41d2300eb62843be096860e71ce09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _health1: 0
+  _score1: 0
+  healthLabel1: {fileID: 0}
+  healthLabel2: {fileID: 0}
+  scoreLabel1: {fileID: 0}
+  scoreLabel2: {fileID: 0}
+  highScoreLabel: {fileID: 0}
+  scoreBoard: {fileID: 11400000, guid: 567c54224e0b7db4db77e5030bb51b1a, type: 2}

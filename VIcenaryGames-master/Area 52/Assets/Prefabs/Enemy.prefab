@@ -130,11 +130,14 @@ MonoBehaviour:
   enemyRigidBody: {fileID: 1114848172}
   wallAhead: {fileID: 1695335753}
   hasWallAhead: 0
-  isMovingRight: 1
+  isMovingPositive: 1
+  isHorizontal: 0
   speed: 3
   shot: {fileID: 584176698199351696, guid: c1bffa6273b384443b623de973834809, type: 3}
   shotSpawn: {fileID: 1448993672874394221}
   fireRate: 2
+  player1: {fileID: 2046055719030545253, guid: 12be8fba1cf349546a0a5aa98a509ba7, type: 3}
+  player2: {fileID: 910354273121596752, guid: 41f8b899ecd623b438a656e5f3b3e1d3, type: 3}
 --- !u!58 &500630083148861179
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class Destroyer : MonoBehaviour
 {
-    // Start is called before the first frame update
+     //public Player1Controller player1;
+    //public Player2Controller player2;
+
+    public static int p1 =0;
+    public static int p2 =0;
+   // public GameObject player1;
+    //Start is called before the first frame update
     //void Start()
     //{
-
+    //    GameObject Player1 = GameObject.Find("Player1");
+    //    Player1Controller player1 = Player1.GetComponent<Player1Controller>();
     //}
 
     // Update is called once per frame
@@ -25,8 +32,17 @@ public class Destroyer : MonoBehaviour
 
         if(other.gameObject.tag == "Enemy" || other.gameObject.tag == "Wall")
         {
+            //Debug.Log("ello " + p1);
+            p1 += 100;
+            p2 += 100;
+            //Debug.Log("ello " + p1);
             Destroy(other.gameObject);
             Destroy(this.gameObject);
+
+           
+
         }
+
+
     }
 }
