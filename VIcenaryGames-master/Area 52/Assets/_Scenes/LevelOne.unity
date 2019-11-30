@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 48202722}
   - component: {fileID: 48202724}
   - component: {fileID: 48202723}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 167106092}
   - component: {fileID: 167106094}
   - component: {fileID: 167106093}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 234159937}
   - component: {fileID: 234159939}
   - component: {fileID: 234159938}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 238699940}
   - component: {fileID: 238699942}
   - component: {fileID: 238699941}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -733,7 +733,7 @@ GameObject:
   - component: {fileID: 275370580}
   - component: {fileID: 275370582}
   - component: {fileID: 275370581}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 275928064}
   - component: {fileID: 275928066}
   - component: {fileID: 275928065}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 310596815}
   - component: {fileID: 310596817}
   - component: {fileID: 310596816}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1025,7 +1025,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 333574078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 347998050}
   - component: {fileID: 347998052}
   - component: {fileID: 347998051}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1158,7 +1158,7 @@ GameObject:
   - component: {fileID: 370613737}
   - component: {fileID: 370613739}
   - component: {fileID: 370613738}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1254,7 +1254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 375927834}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,7 +1289,7 @@ GameObject:
   - component: {fileID: 426182522}
   - component: {fileID: 426182524}
   - component: {fileID: 426182523}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -24301,7 +24301,7 @@ GameObject:
   - component: {fileID: 458539525}
   - component: {fileID: 458539524}
   - component: {fileID: 458539526}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trees2
   m_TagString: Boundary
   m_Icon: {fileID: 0}
@@ -28832,7 +28832,7 @@ GameObject:
   - component: {fileID: 493600088}
   - component: {fileID: 493600090}
   - component: {fileID: 493600089}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -28930,7 +28930,7 @@ GameObject:
   - component: {fileID: 494333053}
   - component: {fileID: 494333055}
   - component: {fileID: 494333054}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -29028,7 +29028,7 @@ GameObject:
   - component: {fileID: 529748949}
   - component: {fileID: 529748951}
   - component: {fileID: 529748950}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -29124,7 +29124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540736693}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29159,7 +29159,7 @@ GameObject:
   - component: {fileID: 547716893}
   - component: {fileID: 547716895}
   - component: {fileID: 547716894}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -29267,7 +29267,7 @@ GameObject:
   - component: {fileID: 557705434}
   - component: {fileID: 557705436}
   - component: {fileID: 557705435}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -29462,7 +29462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 587783236}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29506,7 +29506,7 @@ PrefabInstance:
     - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.41
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
         type: 3}
@@ -29558,31 +29558,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 500630081349823036, guid: 706c3548d92c20c4bb32c1120c128bcc,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
       propertyPath: hasWallAhead
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
       propertyPath: isHorizontal
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695335753, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695335753, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823036, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 500630083148861179, guid: 706c3548d92c20c4bb32c1120c128bcc,
         type: 3}
       propertyPath: m_Radius
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1695335753, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 1695335753, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1114848172, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
       propertyPath: m_Constraints
@@ -29601,7 +29601,7 @@ GameObject:
   - component: {fileID: 660526689}
   - component: {fileID: 660526691}
   - component: {fileID: 660526690}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -29783,7 +29783,7 @@ GameObject:
   - component: {fileID: 678663271}
   - component: {fileID: 678663273}
   - component: {fileID: 678663272}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -29881,7 +29881,7 @@ GameObject:
   - component: {fileID: 678933503}
   - component: {fileID: 678933505}
   - component: {fileID: 678933504}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -29979,7 +29979,7 @@ GameObject:
   - component: {fileID: 702347831}
   - component: {fileID: 702347833}
   - component: {fileID: 702347832}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -30087,7 +30087,7 @@ GameObject:
   - component: {fileID: 706596941}
   - component: {fileID: 706596943}
   - component: {fileID: 706596942}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -30185,7 +30185,7 @@ GameObject:
   - component: {fileID: 711821136}
   - component: {fileID: 711821138}
   - component: {fileID: 711821137}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -31016,7 +31016,7 @@ GameObject:
   - component: {fileID: 752227166}
   - component: {fileID: 752227168}
   - component: {fileID: 752227167}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -31161,7 +31161,7 @@ PrefabInstance:
     - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.4
+      value: -3.1
       objectReference: {fileID: 0}
     - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
         type: 3}
@@ -31219,7 +31219,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
       propertyPath: isHorizontal
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695335753, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695335753, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1114848172, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
       propertyPath: m_Constraints
@@ -31238,7 +31246,7 @@ GameObject:
   - component: {fileID: 815256104}
   - component: {fileID: 815256106}
   - component: {fileID: 815256105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -31336,7 +31344,7 @@ GameObject:
   - component: {fileID: 859966654}
   - component: {fileID: 859966656}
   - component: {fileID: 859966655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -31444,7 +31452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 902550160}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31479,7 +31487,7 @@ GameObject:
   - component: {fileID: 914016409}
   - component: {fileID: 914016411}
   - component: {fileID: 914016410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -31587,7 +31595,7 @@ GameObject:
   - component: {fileID: 937637196}
   - component: {fileID: 937637198}
   - component: {fileID: 937637197}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -31685,7 +31693,7 @@ GameObject:
   - component: {fileID: 939804799}
   - component: {fileID: 939804801}
   - component: {fileID: 939804800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -31903,7 +31911,7 @@ GameObject:
   - component: {fileID: 948920260}
   - component: {fileID: 948920262}
   - component: {fileID: 948920261}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -32009,7 +32017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 950082423}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39321,7 +39329,7 @@ GameObject:
   - component: {fileID: 977802146}
   - component: {fileID: 977802148}
   - component: {fileID: 977802147}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -39427,7 +39435,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1017208661}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39460,7 +39468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1033646158}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39493,7 +39501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1057562192}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39528,7 +39536,7 @@ GameObject:
   - component: {fileID: 1097527242}
   - component: {fileID: 1097527244}
   - component: {fileID: 1097527243}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -39636,7 +39644,7 @@ GameObject:
   - component: {fileID: 1110597626}
   - component: {fileID: 1110597628}
   - component: {fileID: 1110597627}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -39740,7 +39748,7 @@ GameObject:
   - component: {fileID: 1152356245}
   - component: {fileID: 1152356247}
   - component: {fileID: 1152356246}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -39848,7 +39856,7 @@ GameObject:
   - component: {fileID: 1174844569}
   - component: {fileID: 1174844571}
   - component: {fileID: 1174844570}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -40177,7 +40185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234571672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40257,7 +40265,7 @@ GameObject:
   - component: {fileID: 1323993983}
   - component: {fileID: 1323993985}
   - component: {fileID: 1323993984}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -40353,7 +40361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1343663560}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40388,7 +40396,7 @@ GameObject:
   - component: {fileID: 1368212812}
   - component: {fileID: 1368212814}
   - component: {fileID: 1368212813}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -40486,7 +40494,7 @@ GameObject:
   - component: {fileID: 1377245774}
   - component: {fileID: 1377245776}
   - component: {fileID: 1377245775}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -40594,7 +40602,7 @@ GameObject:
   - component: {fileID: 1384528664}
   - component: {fileID: 1384528666}
   - component: {fileID: 1384528665}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -40702,7 +40710,7 @@ GameObject:
   - component: {fileID: 1392904070}
   - component: {fileID: 1392904072}
   - component: {fileID: 1392904071}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -40810,7 +40818,7 @@ GameObject:
   - component: {fileID: 1405743716}
   - component: {fileID: 1405743718}
   - component: {fileID: 1405743717}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -40908,7 +40916,7 @@ GameObject:
   - component: {fileID: 1420904377}
   - component: {fileID: 1420904379}
   - component: {fileID: 1420904378}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -41006,7 +41014,7 @@ GameObject:
   - component: {fileID: 1422771713}
   - component: {fileID: 1422771715}
   - component: {fileID: 1422771714}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -41257,7 +41265,7 @@ GameObject:
   - component: {fileID: 1435754861}
   - component: {fileID: 1435754863}
   - component: {fileID: 1435754862}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -41353,7 +41361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1522092135}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41388,7 +41396,7 @@ GameObject:
   - component: {fileID: 1525715904}
   - component: {fileID: 1525715906}
   - component: {fileID: 1525715905}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -41500,7 +41508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1582550310}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41745,7 +41753,7 @@ GameObject:
   - component: {fileID: 1594193245}
   - component: {fileID: 1594193247}
   - component: {fileID: 1594193246}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -41927,7 +41935,7 @@ GameObject:
   - component: {fileID: 1639207818}
   - component: {fileID: 1639207820}
   - component: {fileID: 1639207819}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42023,7 +42031,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1707705027}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42058,7 +42066,7 @@ GameObject:
   - component: {fileID: 1739516196}
   - component: {fileID: 1739516198}
   - component: {fileID: 1739516197}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42156,7 +42164,7 @@ GameObject:
   - component: {fileID: 1744282668}
   - component: {fileID: 1744282670}
   - component: {fileID: 1744282669}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42254,7 +42262,7 @@ GameObject:
   - component: {fileID: 1780093104}
   - component: {fileID: 1780093106}
   - component: {fileID: 1780093105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42350,7 +42358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1790798206}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42403,6 +42411,8 @@ Transform:
   m_Children:
   - {fileID: 1114848175}
   - {fileID: 2066276705}
+  - {fileID: 2099259860}
+  - {fileID: 2019331328}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42417,7 +42427,7 @@ GameObject:
   - component: {fileID: 1824900712}
   - component: {fileID: 1824900714}
   - component: {fileID: 1824900713}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42515,7 +42525,7 @@ GameObject:
   - component: {fileID: 1875114317}
   - component: {fileID: 1875114319}
   - component: {fileID: 1875114318}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42623,7 +42633,7 @@ GameObject:
   - component: {fileID: 1880938508}
   - component: {fileID: 1880938510}
   - component: {fileID: 1880938509}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42731,7 +42741,7 @@ GameObject:
   - component: {fileID: 1893587635}
   - component: {fileID: 1893587637}
   - component: {fileID: 1893587636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42841,7 +42851,7 @@ GameObject:
   - component: {fileID: 1938716637}
   - component: {fileID: 1938716639}
   - component: {fileID: 1938716638}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -42939,7 +42949,7 @@ GameObject:
   - component: {fileID: 1960768995}
   - component: {fileID: 1960768997}
   - component: {fileID: 1960768996}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -43037,7 +43047,7 @@ GameObject:
   - component: {fileID: 1991322644}
   - component: {fileID: 1991322646}
   - component: {fileID: 1991322645}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -43143,7 +43153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2010312709}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43287,6 +43297,93 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.85298884, y: 0.762939}
   m_EdgeRadius: 0
+--- !u!1001 &2019331327
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1808754556}
+    m_Modifications:
+    - target: {fileID: 500630081349823037, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 43.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: isVertical
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: isHorizontal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114848172, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+--- !u!4 &2019331328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2019331327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &2028281687 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5377515656721490045, guid: d129cd25b270693458e2294a1da51068,
@@ -43376,7 +43473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2030087633}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43409,7 +43506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2061319206}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43450,7 +43547,7 @@ GameObject:
   - component: {fileID: 2088843282}
   - component: {fileID: 2088843284}
   - component: {fileID: 2088843283}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -43537,6 +43634,93 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2099259859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1808754556}
+    m_Modifications:
+    - target: {fileID: 500630081349823037, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 43.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: isVertical
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: isHorizontal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114848172, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+--- !u!4 &2099259860 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 500630081349823039, guid: 706c3548d92c20c4bb32c1120c128bcc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2099259859}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2110048150
 GameObject:
   m_ObjectHideFlags: 0
@@ -43548,7 +43732,7 @@ GameObject:
   - component: {fileID: 2110048151}
   - component: {fileID: 2110048153}
   - component: {fileID: 2110048152}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: log and roadblock_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -43644,7 +43828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2111136593}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obsticle (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43788,16 +43972,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_1
       objectReference: {fileID: 0}
-    - target: {fileID: 8644467308246916760, guid: fb352751d5141644898adcba496f75a5,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8644467308246916760, guid: fb352751d5141644898adcba496f75a5,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8382776628190039106, guid: fb352751d5141644898adcba496f75a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43908,6 +44082,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2028281687}
+    - target: {fileID: 5063098528336945028, guid: fb352751d5141644898adcba496f75a5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644467308246916760, guid: fb352751d5141644898adcba496f75a5,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644467308246916760, guid: fb352751d5141644898adcba496f75a5,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1610451332492772788, guid: fb352751d5141644898adcba496f75a5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -43938,11 +44127,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1820859324, guid: fb352751d5141644898adcba496f75a5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5063098528336945028, guid: fb352751d5141644898adcba496f75a5,
-        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
