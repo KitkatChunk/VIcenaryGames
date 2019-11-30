@@ -131,13 +131,11 @@ MonoBehaviour:
   wallAhead: {fileID: 1695335753}
   hasWallAhead: 0
   isMovingPositive: 1
-  isHorizontal: 0
+  isHorizontal: 1
   speed: 3
   shot: {fileID: 584176698199351696, guid: c1bffa6273b384443b623de973834809, type: 3}
   shotSpawn: {fileID: 1448993672874394221}
   fireRate: 2
-  player1: {fileID: 2046055719030545253, guid: 12be8fba1cf349546a0a5aa98a509ba7, type: 3}
-  player2: {fileID: 910354273121596752, guid: 41f8b899ecd623b438a656e5f3b3e1d3, type: 3}
 --- !u!58 &500630083148861179
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -148,7 +146,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.048785448, y: 0.13748622}
