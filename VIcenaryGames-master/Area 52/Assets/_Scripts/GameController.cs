@@ -182,4 +182,9 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("LevelOne");
     }
+
+    public void OnClearButtonClick()
+    {
+        SceneManager.LoadScene("Start");
+    }
 }
