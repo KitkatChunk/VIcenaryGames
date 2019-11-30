@@ -353,6 +353,10 @@ PrefabInstance:
       propertyPath: ScoreLabel
       value: 
       objectReference: {fileID: 1874039361}
+    - target: {fileID: 1698075334, guid: 12be8fba1cf349546a0a5aa98a509ba7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4007993449890784943, guid: 12be8fba1cf349546a0a5aa98a509ba7,
         type: 3}
       propertyPath: m_SortingOrder
@@ -362,10 +366,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1698075334, guid: 12be8fba1cf349546a0a5aa98a509ba7, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12be8fba1cf349546a0a5aa98a509ba7, type: 3}
