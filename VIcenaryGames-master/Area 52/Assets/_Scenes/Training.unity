@@ -352,6 +352,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3668421376625191151, guid: 12be8fba1cf349546a0a5aa98a509ba7,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12be8fba1cf349546a0a5aa98a509ba7, type: 3}
 --- !u!1 &256875683
@@ -1312,6 +1317,10 @@ PrefabInstance:
     - target: {fileID: 862767220, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
       propertyPath: isHorizontal
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114848172, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 706c3548d92c20c4bb32c1120c128bcc, type: 3}
