@@ -43,22 +43,22 @@ public class Player1Controller : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("SelectedCharacter") == 0)
         {
-            Health = 50;
-            speed.min = -0.07f;
-            speed.max = 0.07f;
+            Health = 20;
+            speed.min = -0.08f;
+            speed.max = 0.08f;
         }
         if (PlayerPrefs.GetInt("SelectedCharacter") == 1)
         {
-            Health = 100;
-            speed.min = -0.05f;
-            speed.max = 0.05f;
+            Health = 50;
+            speed.min = -0.06f;
+            speed.max = 0.06f;
         }
 
         if (PlayerPrefs.GetInt("SelectedCharacter") == 2)
         {
-            Health = 150;
-            speed.min = -0.03f;
-            speed.max = 0.03f;
+            Health = 80;
+            speed.min = -0.04f;
+            speed.max = 0.04f;
         }
         if (SceneManager.GetActiveScene().name == "LevelOne")
         {
