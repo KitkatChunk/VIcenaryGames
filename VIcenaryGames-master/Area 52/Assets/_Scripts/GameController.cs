@@ -187,4 +187,14 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("Start");
     }
+
+    public void LastLevel()
+    {
+        SceneManager.LoadScene("LevelTwo");
+    }
+
+    public void SelectLevel()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
 }

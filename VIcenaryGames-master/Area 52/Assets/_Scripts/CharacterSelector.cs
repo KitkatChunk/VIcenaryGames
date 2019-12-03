@@ -9,7 +9,7 @@ public class CharacterSelector : MonoBehaviour
     int p1 = 3;
     int p2 = 3;
 
-    public Text lockedIn;
+    public Text guide, lockedIn;
     [Header("P1 Text")]
     public Text p1Light;
     public Text p1Medium;
@@ -67,6 +67,7 @@ public class CharacterSelector : MonoBehaviour
                     p1Heavy.text = "P1";
                     break;
             }
+            guide.text = "Select Player 2";
             lockedIn.text = "Player 1 Locked-in";
         }
         else
@@ -89,6 +90,7 @@ public class CharacterSelector : MonoBehaviour
                     p2Heavy.text = "P2";
                     break;
             }
+            guide.text = "";
             lockedIn.text = "All Players Locked-in";
         }
     }
