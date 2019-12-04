@@ -12,18 +12,19 @@ using UnityEngine.SceneManagement;
 public class Player2Controller : MonoBehaviour
 {
     public GameController gameController;
+
+    [SerializeField]
+    private static int _health2;
+    public Text HealthLabel;
+
+    [SerializeField]
+    private static int _score2;
+    public Text ScoreLabel;
+
     //object of class speed from Speed.cs
     [Header("Movement Settings")]
     public Speed speed;
     public float turningSpeed;
-
-    [SerializeField]
-    public int _health2;
-    public Text HealthLabel;
-
-    [SerializeField]
-    public int _score2;
-    public Text ScoreLabel;
 
     [Header("Attack Settings")]
     public GameObject shot;
@@ -33,20 +34,29 @@ public class Player2Controller : MonoBehaviour
     [Header("Game Settings")]
     public ScoreBoard2 scoreBoard;
 
+    [Header("Player Sprites")]
+    private SpriteRenderer spriteRenderer;
+    public Sprite blue;
+    public Sprite green;
+    public Sprite red;
+
     //fireRate counter
     private float myTime;
 
     // Start is called before the first frame update
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         if (PlayerPrefs.GetInt("SelectedCharacter2") == 0)
         {
+            spriteRenderer.sprite = blue;
             Health = 20;
             speed.min = -0.08f;
             speed.max = 0.08f;
         }
         if (PlayerPrefs.GetInt("SelectedCharacter2") == 1)
         {
+            spriteRenderer.sprite = green;
             Health = 50;
             speed.min = -0.06f;
             speed.max = 0.06f;
@@ -54,6 +64,7 @@ public class Player2Controller : MonoBehaviour
 
         if (PlayerPrefs.GetInt("SelectedCharacter2") == 2)
         {
+            spriteRenderer.sprite = red;
             Health = 80;
             speed.min = -0.04f;
             speed.max = 0.04f;

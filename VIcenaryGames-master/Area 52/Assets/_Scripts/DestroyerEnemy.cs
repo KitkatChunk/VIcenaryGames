@@ -18,7 +18,7 @@ public class DestroyerEnemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Boundary" || other.gameObject.tag == "Wall")
+        if (other.gameObject.tag == "Boundary" || other.gameObject.tag == "Wall" || other.gameObject.tag == "Enemy")
         {
             Destroy(this.gameObject);
         }

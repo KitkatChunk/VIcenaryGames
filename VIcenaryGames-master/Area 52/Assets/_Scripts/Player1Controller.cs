@@ -12,10 +12,6 @@ using UnityEngine.SceneManagement;
 public class Player1Controller : MonoBehaviour
 {
     public GameController gameController;
-    //object of class speed from Speed.cs
-    [Header("Movement Settings")]
-    public Speed speed;
-    public float turningSpeed;
 
     [SerializeField]
     private static int _health1;
@@ -25,15 +21,24 @@ public class Player1Controller : MonoBehaviour
     private static int _score1;
     public Text ScoreLabel;
 
+    //object of class speed from Speed.cs
+    [Header("Movement Settings")]
+    public Speed speed;
+    public float turningSpeed;
 
     [Header("Attack Settings")]
     public GameObject shot;
     public GameObject shotSpawn;
     public float fireRate;
 
-
     [Header("Game Settings")]
     public ScoreBoard1 scoreBoard;
+
+    [Header("Player Sprites")]
+    private SpriteRenderer spriteRenderer;
+    public Sprite blue;
+    public Sprite green;
+    public Sprite red;
 
     //fireRate counter
     private float myTime;
@@ -41,14 +46,17 @@ public class Player1Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         if (PlayerPrefs.GetInt("SelectedCharacter") == 0)
         {
+            spriteRenderer.sprite = blue;
             Health = 20;
             speed.min = -0.08f;
             speed.max = 0.08f;
         }
         if (PlayerPrefs.GetInt("SelectedCharacter") == 1)
         {
+            spriteRenderer.sprite = green;
             Health = 50;
             speed.min = -0.06f;
             speed.max = 0.06f;
@@ -56,6 +64,7 @@ public class Player1Controller : MonoBehaviour
 
         if (PlayerPrefs.GetInt("SelectedCharacter") == 2)
         {
+            spriteRenderer.sprite = red;
             Health = 80;
             speed.min = -0.04f;
             speed.max = 0.04f;
@@ -63,7 +72,6 @@ public class Player1Controller : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "LevelOne")
         {
             Score = 0;
-
         }
         else
         {

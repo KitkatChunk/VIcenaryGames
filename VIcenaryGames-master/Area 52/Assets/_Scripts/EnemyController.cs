@@ -65,11 +65,13 @@ public class EnemyController : MonoBehaviour
             if (isMovingPositive)
             {
                 enemyRigidBody.velocity = new Vector2(0.0f, speed);
+                shotSpawn.transform.rotation = Quaternion.Euler(0, 0, 0);
             }
 
             if (!isMovingPositive)
             {
                 enemyRigidBody.velocity = new Vector2(0.0f, -speed);
+                shotSpawn.transform.rotation = Quaternion.Euler(180, 0, 0);
             }
 
             if (hasWallAhead)

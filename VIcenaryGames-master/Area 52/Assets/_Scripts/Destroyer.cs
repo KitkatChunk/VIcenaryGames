@@ -25,24 +25,18 @@ public class Destroyer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Boundary")
+        if(other.gameObject.tag == "Boundary" || other.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
         }
 
         if(other.gameObject.tag == "Enemy" || other.gameObject.tag == "Wall")
         {
-            //Debug.Log("ello " + p1);
             p1 += 100;
             p2 += 100;
             //Debug.Log("ello " + p1);
             Destroy(other.gameObject);
             Destroy(this.gameObject);
-
-           
-
         }
-
-
     }
 }

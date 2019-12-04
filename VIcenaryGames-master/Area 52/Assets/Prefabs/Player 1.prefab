@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1698075335}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shotSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3668421376819633245}
   - component: {fileID: 4007993449890784943}
   - component: {fileID: 3668421376625191151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -78,16 +78,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameController: {fileID: 0}
+  HealthLabel: {fileID: 0}
+  ScoreLabel: {fileID: 0}
   speed:
     min: -0.05
     max: 0.05
-  turningSpeed: 5
-  HealthLabel: {fileID: 0}
-  ScoreLabel: {fileID: 0}
+  turningSpeed: 4
   shot: {fileID: 5888375814867272945, guid: c1bad96894f40664d97fabf23e9ca114, type: 3}
   shotSpawn: {fileID: 1698075334}
   fireRate: 1
   scoreBoard: {fileID: 11400000, guid: 73f2bb82688f77944a9cd5eb39cbbb99, type: 2}
+  blue: {fileID: 21300000, guid: afbf04e46f79d4f49b542a41ca8cbc10, type: 3}
+  green: {fileID: 21300000, guid: aed70c4ce5ed8d94d8a37551228bb4e0, type: 3}
+  red: {fileID: 21300000, guid: 50c54f92f3f621041a6cfcbc426021f8, type: 3}
 --- !u!61 &3668421376819633245
 BoxCollider2D:
   m_ObjectHideFlags: 0
