@@ -3,7 +3,16 @@ guid: 7571fe6f9aae3524e93abbbbc4460930
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - gameController: {instanceID: 0}
+  - HealthLabel: {instanceID: 0}
+  - ScoreLabel: {instanceID: 0}
+  - shot: {instanceID: 0}
+  - shotSpawn: {instanceID: 0}
+  - scoreBoard: {instanceID: 0}
+  - blue: {fileID: 21300000, guid: afbf04e46f79d4f49b542a41ca8cbc10, type: 3}
+  - green: {fileID: 21300000, guid: aed70c4ce5ed8d94d8a37551228bb4e0, type: 3}
+  - red: {fileID: 21300000, guid: 50c54f92f3f621041a6cfcbc426021f8, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

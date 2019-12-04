@@ -6,7 +6,9 @@ public class EnemyController : MonoBehaviour
 {
     public Rigidbody2D enemyRigidBody;
     public Transform wallAhead;
+    public Transform playerAhead;
     public bool hasWallAhead;
+    public bool hasPlayerAhead;
     public bool isMovingPositive = true; //true = moving right/up, false = moving left/down
     public bool isHorizontal; //defining variable for if movement is on x or y axis (horizontal or vertical)
     public float speed;
@@ -16,9 +18,6 @@ public class EnemyController : MonoBehaviour
     public GameObject shotSpawn;
     public float fireRate;
     private float downTime;
-
-
-
 
     // Start is called before the first frame update
     //void Start()
@@ -84,10 +83,19 @@ public class EnemyController : MonoBehaviour
 
     public void Attack()
     {
-        if (downTime >= fireRate)
+        hasPlayerAhead = Physics2D.Linecast(
+            transform.position,
+            playerAhead.position,
+            1 << LayerMask.NameToLayer("Player"));
+
+        if (hasPlayerAhead)
         {
-            Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
-            downTime = 0.0f;
+            enemyRigidBody.velocity = new Vector2(0.0f, 0.0f);
+            if(downTime >= fireRate)
+            {
+                Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
+                downTime = 0.0f;
+            }
         }
     }
 
