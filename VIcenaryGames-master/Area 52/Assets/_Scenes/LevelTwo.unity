@@ -1401,7 +1401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: REACH THE TOP EXIT
+  m_Text: FIND THE TOP EXIT
 --- !u!222 &853371172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6620,7 +6620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: REACH THE TOP EXIT
+  m_Text: FIND THE TOP EXIT
 --- !u!222 &959552359
 CanvasRenderer:
   m_ObjectHideFlags: 0
