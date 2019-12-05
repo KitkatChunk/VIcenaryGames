@@ -114,6 +114,7 @@ public class Player1Controller : MonoBehaviour
 
         }
     }
+
     // Score counter and updater
     public int Score
     {
@@ -174,7 +175,6 @@ public class Player1Controller : MonoBehaviour
             Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
             myTime = 0.0f;
         }
-        
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -182,13 +182,12 @@ public class Player1Controller : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Health -= 10;
-            Score += 50;
+            Score -= 50;
             if (Health <= 0)
             {
                 gameController.Reset();
 
             }
-           
         }
     }
    
@@ -197,10 +196,10 @@ public class Player1Controller : MonoBehaviour
         if(other.gameObject.tag == "EnemyBullet")
         {
             Health -= 10;
+            Destroy(other.gameObject);
             if (Health <= 0)
             {
                 gameController.Reset();
-
             }
         }
         // Increase speed when player "picks up" powerup
@@ -211,20 +210,17 @@ public class Player1Controller : MonoBehaviour
         // Increase Health when player "picks up" powerup
         if (other.gameObject.tag == "Health")
         {
-            Health += 40;
+            Health += 30;
         }
      }
-
-  
-
-
 
     //Limits the time of the powerup
     IEnumerator PowerUpWearOff(float waitTime)
     {
-        speed.max += 0.04f; 
+        speed.max += 0.04f;
+        speed.min -= 0.04f;
         yield return new WaitForSeconds(waitTime);
-        speed.max -= 0.04f; 
+        speed.max -= 0.04f;
+        speed.min += 0.04f;
     }
-
 }
