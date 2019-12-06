@@ -40,6 +40,10 @@ public class Player2Controller : MonoBehaviour
     public Sprite green;
     public Sprite red;
 
+    [Header("Explosion settings")]
+    public GameObject explosion2;
+    public GameObject explosion3;
+
     //fireRate counter
     private float myTime;
 
@@ -180,6 +184,8 @@ public class Player2Controller : MonoBehaviour
         {
             Health -= 10;
             Score -= 50;
+            Instantiate(explosion3, other.transform.position, other.transform.rotation);
+            Instantiate(explosion2, this.transform.position, this.transform.rotation);
             if (Health <= 0)
             {
                 gameController.Reset();
@@ -193,6 +199,7 @@ public class Player2Controller : MonoBehaviour
         if (other.gameObject.tag == "EnemyBullet")
         {
             Health -= 10;
+            Instantiate(explosion2, this.transform.position, this.transform.rotation);
             Destroy(other.gameObject);
             if (Health <= 0)
             {

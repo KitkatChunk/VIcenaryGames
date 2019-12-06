@@ -40,6 +40,11 @@ public class Player1Controller : MonoBehaviour
     public Sprite green;
     public Sprite red;
 
+    [Header("Explosion settings")]
+    public GameObject explosion1;
+    public GameObject explosion3;
+ 
+
     //fireRate counter
     private float myTime;
 
@@ -181,6 +186,8 @@ public class Player1Controller : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
+            Instantiate(explosion3, other.transform.position, other.transform.rotation);
+            Instantiate(explosion1, this.transform.position, this.transform.rotation);
             Health -= 10;
             Score -= 50;
             if (Health <= 0)
@@ -197,6 +204,7 @@ public class Player1Controller : MonoBehaviour
         {
             Health -= 10;
             Destroy(other.gameObject);
+            Instantiate(explosion1, this.transform.position, this.transform.rotation);
             if (Health <= 0)
             {
                 gameController.Reset();

@@ -91,6 +91,10 @@ MonoBehaviour:
   blue: {fileID: 21300000, guid: afbf04e46f79d4f49b542a41ca8cbc10, type: 3}
   green: {fileID: 21300000, guid: aed70c4ce5ed8d94d8a37551228bb4e0, type: 3}
   red: {fileID: 21300000, guid: 50c54f92f3f621041a6cfcbc426021f8, type: 3}
+  explosion1: {fileID: 1672739842557580534, guid: cf6614c6da0f0e64389f4a5a7710e76d,
+    type: 3}
+  explosion3: {fileID: 6889064633066545730, guid: 0be1170fee097ad4c9fff0760655c3fa,
+    type: 3}
 --- !u!61 &3668421376819633245
 BoxCollider2D:
   m_ObjectHideFlags: 0
