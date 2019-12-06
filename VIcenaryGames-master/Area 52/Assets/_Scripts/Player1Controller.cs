@@ -186,8 +186,8 @@ public class Player1Controller : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Instantiate(explosion3, other.transform.position, other.transform.rotation);
-            Instantiate(explosion1, this.transform.position, this.transform.rotation);
+          //  Instantiate(explosion3, other.transform.position, other.transform.rotation);
+          //  Instantiate(explosion1, this.transform.position, this.transform.rotation);
             Health -= 10;
             Score -= 50;
             if (Health <= 0)
@@ -220,6 +220,13 @@ public class Player1Controller : MonoBehaviour
         {
             Health += 30;
         }
+
+        if(other.gameObject.tag =="Enemy")
+        {
+            Instantiate(explosion3, other.transform.position, other.transform.rotation);
+            Instantiate(explosion1, this.transform.position, this.transform.rotation);
+        }
+
      }
 
     //Limits the time of the powerup

@@ -184,8 +184,8 @@ public class Player2Controller : MonoBehaviour
         {
             Health -= 10;
             Score -= 50;
-            Instantiate(explosion3, other.transform.position, other.transform.rotation);
-            Instantiate(explosion2, this.transform.position, this.transform.rotation);
+           // Instantiate(explosion3, other.transform.position, other.transform.rotation);
+           // Instantiate(explosion2, this.transform.position, this.transform.rotation);
             if (Health <= 0)
             {
                 gameController.Reset();
@@ -215,6 +215,11 @@ public class Player2Controller : MonoBehaviour
         if (other.gameObject.tag == "Health")
         {
             Health += 30;
+        }
+        if (other.gameObject.tag == "Enemy")
+        {
+            Instantiate(explosion3, other.transform.position, other.transform.rotation);
+            Instantiate(explosion2, this.transform.position, this.transform.rotation);
         }
     }
     //Limits the time of the powerup
