@@ -707,6 +707,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5389340168321372162, guid: deea6d76582374044903b34e2a713ce6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8937507664118487457, guid: deea6d76582374044903b34e2a713ce6,
         type: 3}
       propertyPath: m_Name
@@ -824,6 +829,18 @@ PrefabInstance:
       objectReference: {fileID: 5377515657878953493}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deea6d76582374044903b34e2a713ce6, type: 3}
+--- !u!114 &639617586 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 375000359576030835, guid: deea6d76582374044903b34e2a713ce6,
+    type: 3}
+  m_PrefabInstance: {fileID: 639617585}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &667602068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1067,6 +1084,16 @@ PrefabInstance:
       propertyPath: nextLevel
       value: Win
       objectReference: {fileID: 0}
+    - target: {fileID: 7479146345886075451, guid: 6beba75cc9be6e2439b709c108250e34,
+        type: 3}
+      propertyPath: coop1
+      value: 
+      objectReference: {fileID: 1125481236}
+    - target: {fileID: 7479146345886075451, guid: 6beba75cc9be6e2439b709c108250e34,
+        type: 3}
+      propertyPath: coop2
+      value: 
+      objectReference: {fileID: 639617586}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6beba75cc9be6e2439b709c108250e34, type: 3}
 --- !u!1 &765064593
@@ -1401,7 +1428,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FIND THE TOP EXIT
+  m_Text: FIND THE FAR EXIT
 --- !u!222 &853371172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6620,7 +6647,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FIND THE TOP EXIT
+  m_Text: FIND THE FAR EXIT
 --- !u!222 &959552359
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6866,6 +6893,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1683416977350953969, guid: fb352751d5141644898adcba496f75a5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8382776628190039107, guid: fb352751d5141644898adcba496f75a5,
         type: 3}
       propertyPath: m_Name
@@ -6998,6 +7030,18 @@ MonoBehaviour:
 --- !u!114 &1125481235 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8382776626454020409, guid: fb352751d5141644898adcba496f75a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1125481233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1125481236 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7499380912470272964, guid: fb352751d5141644898adcba496f75a5,
     type: 3}
   m_PrefabInstance: {fileID: 1125481233}
   m_PrefabAsset: {fileID: 0}
