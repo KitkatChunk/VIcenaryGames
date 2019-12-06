@@ -107,7 +107,6 @@ public class Player2Controller : MonoBehaviour
 
             if (_health2 < 1)
             {
-
                 SceneManager.LoadScene("End");
             }
             else
@@ -186,10 +185,10 @@ public class Player2Controller : MonoBehaviour
             Score -= 50;
            // Instantiate(explosion3, other.transform.position, other.transform.rotation);
            // Instantiate(explosion2, this.transform.position, this.transform.rotation);
-            if (Health <= 0)
-            {
-                gameController.Reset();
-            }
+            //if (Health <= 0)
+            //{
+            //    gameController.Reset();
+            //}
         }
     }
 
@@ -201,10 +200,10 @@ public class Player2Controller : MonoBehaviour
             Health -= 10;
             Instantiate(explosion2, this.transform.position, this.transform.rotation);
             Destroy(other.gameObject);
-            if (Health <= 0)
-            {
-                gameController.Reset();
-            }
+            //if (Health <= 0)
+            //{
+            //    gameController.Reset();
+            //}
         }
         // Increase speed when player "picks up" powerup
         if (other.gameObject.tag == "PowerUp")
@@ -218,8 +217,14 @@ public class Player2Controller : MonoBehaviour
         }
         if (other.gameObject.tag == "Enemy")
         {
+            Health -= 10;
+            Score -= 50;
             Instantiate(explosion3, other.transform.position, other.transform.rotation);
             Instantiate(explosion2, this.transform.position, this.transform.rotation);
+            //if (Health <= 0)
+            //{
+            //    gameController.Reset();
+            //}
         }
     }
     //Limits the time of the powerup

@@ -36,4 +36,9 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("LevelSelect");
     }
+
+    public void Death()
+    {
+        SceneManager.LoadScene("End");
+    }
 }

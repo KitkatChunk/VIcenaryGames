@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 38b72ee94842fe84f835dfa6a83006e4, type: 3}
   m_Color: {r: 0.2009167, g: 0.5649375, b: 0.990566, a: 1}
   m_FlipX: 0
@@ -121,7 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb524439cac440845aa9291ac3ca693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: -348933115513977171}
 --- !u!82 &-348933115513977171
 AudioSource:
   m_ObjectHideFlags: 0

@@ -14,8 +14,11 @@ public class PowerUp : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        source.Play();
-        Destroy(gameObject);
+        if(other.gameObject.tag == "Player")
+        {
+            source.Play();
+            Destroy(gameObject);
+        }
     }
 
 
