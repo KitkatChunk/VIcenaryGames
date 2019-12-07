@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 39
+  controlID: 70
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,11 +380,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Scripts
+    - Assets/_Scenes
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/_Scripts
+  - Assets/_Scenes
   m_LastFoldersGridSize: 49
   m_LastProjectPath: C:\Users\Geerththan\Documents\GitHUB\VIcenaryGames\VIcenaryGames-master\Area
     52
@@ -392,8 +392,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 04440000
-    m_LastClickedID: 17412
+    m_SelectedIDs: ce400000
+    m_LastClickedID: 16590
     m_ExpandedIDs: 00000000822d0000503d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 57}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 49
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
@@ -595,9 +595,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 31.638607, y: 2.035214, z: -81.55469}
+    m_Target: {x: -0.5713433, y: 9.586318, z: 3822.4937}
     speed: 2
-    m_Value: {x: 31.638607, y: 2.035214, z: -81.55469}
+    m_Value: {x: -0.5740991, y: 9.725492, z: 3664.9885}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -630,9 +630,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 23.93251
+    m_Target: 82.4465
     speed: 2
-    m_Value: 23.93251
+    m_Value: 78.89617
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -686,10 +686,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 34}
+      scrollPos: {x: 0, y: 66}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 74fbffff7a470000
+      m_ExpandedIDs: 504bffff0462ffff3464ffff0af9ffff74fbffffc8490000fe490000b04a00002e8200006882000070820000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
